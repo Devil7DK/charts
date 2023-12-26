@@ -1,25 +1,94 @@
 div#root {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    > div {
-        &.navbar {
-            display: flex;
-            gap: 1em;
-            border-bottom: 0.2em solid #979797;
-            padding: 0.5em 1em;
-        }
-
-        &.content {
-            flex: 1;
-            overflow: hidden;
-            padding: 1em;
-        }
+  > div {
+    &.navbar {
+      display: flex;
+      gap: 1em;
+      border-bottom: 0.2em solid #979797;
+      padding: 0.5em 1em;
     }
+
+    &.content {
+      flex: 1;
+      overflow: hidden;
+      padding: 1em;
+    }
+  }
+}
+
+.responsive-font {
+  --font-size: 14;
+
+  font-family: "Open Sans";
+  font-size: var(--font-size) !important;
+
+  &.rf-1 {
+    @media (min-width: 1200px) {
+      --font-size: 0.83vw;
+    }
+
+    @media (min-width: 960px) and (max-width: 1199px) {
+      --font-size: 1vw;
+    }
+
+    @media (min-width: 768px) and (max-width: 959px) {
+      --font-size: 1.61vw;
+    }
+
+    @media (min-width: 568px) and (max-width: 767px) {
+      --font-size: 2.086vw;
+    }
+
+    @media (max-width: 567px) {
+      --font-size: 2.2vw;
+    }
+  }
+
+  &.rf-2 {
+    @media (min-width: 1200px) {
+      --font-size: 0.938vw;
+    }
+
+    @media (min-width: 960px) and (max-width: 1199px) {
+      --font-size: 1.2vw;
+    }
+
+    @media (min-width: 768px) and (max-width: 959px) {
+      --font-size: 1.81vw;
+    }
+
+    @media (min-width: 568px) and (max-width: 767px) {
+      --font-size: 2.3vw;
+    }
+
+    @media (max-width: 567px) {
+      --font-size: 3.1vw;
+    }
+  }
+
+  &.rf-3 {
+    @media only screen and (min-width: 1000px) {
+      --font-size: 1.183vw;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      --font-size: 0.938vw;
+    }
+
+    @media only screen and (min-width: 1400px) {
+      --font-size: 1.03vw;
+    }
+
+    @media only screen and (min-width: 1500px) {
+      --font-size: 0.98vw;
+    }
+  }
 }

@@ -1,0 +1,902 @@
+[
+    {
+        "date": "16/05/2023",
+        "sku": "176674575-X",
+        "brand": "Walgreen Company",
+        "productNameGeneric": "Acetaminophen, Dextromethorphan Hydrobromide, Doxylamine succinate",
+        "productNameBrand": "nighttime cold and flu relief",
+        "price": 561,
+        "quantity": 30322
+    },
+    {
+        "date": "10/06/2022",
+        "sku": "811868997-2",
+        "brand": "Supervalu Inc",
+        "productNameGeneric": "Calcium carbonate",
+        "productNameBrand": "equaline antacid",
+        "price": 137,
+        "quantity": 70346
+    },
+    {
+        "date": "07/12/2021",
+        "sku": "598436453-0",
+        "brand": "Sandoz Inc",
+        "productNameGeneric": "Amoxicillin and Clavulanate Potassium",
+        "productNameBrand": "Amoxicillin and Clavulanate Potassium",
+        "price": 592,
+        "quantity": 77317
+    },
+    {
+        "date": "13/08/2021",
+        "sku": "305728961-4",
+        "brand": "Lornamead",
+        "productNameGeneric": "Lip Balm",
+        "productNameBrand": "LypSyl Honeyberry",
+        "price": 593,
+        "quantity": 38700
+    },
+    {
+        "date": "14/03/2022",
+        "sku": "685109433-9",
+        "brand": "Apotheca Company",
+        "productNameGeneric": "Capsicum annuum, Pulsatilla, Sanguinaria canadensis,",
+        "productNameBrand": "Hot Flash Rescue",
+        "price": 869,
+        "quantity": 46680
+    },
+    {
+        "date": "31/03/2021",
+        "sku": "904691939-0",
+        "brand": "Golden State Medical Supply, Inc.",
+        "productNameGeneric": "ciprofloxacin hydrochloride",
+        "productNameBrand": "Ciprofloxacin",
+        "price": 552,
+        "quantity": 41686
+    },
+    {
+        "date": "06/03/2022",
+        "sku": "127454349-5",
+        "brand": "Wal-Mart Stores Inc.",
+        "productNameGeneric": "Salicylic Acid",
+        "productNameBrand": "Equate One Step Corn Remover Pad",
+        "price": 615,
+        "quantity": 34967
+    },
+    {
+        "date": "04/08/2021",
+        "sku": "025983049-6",
+        "brand": "REMEDYREPACK INC.",
+        "productNameGeneric": "ziprasidone hydrochloride",
+        "productNameBrand": "ziprasidone hydrochloride",
+        "price": 271,
+        "quantity": 19220
+    },
+    {
+        "date": "02/04/2022",
+        "sku": "600316005-5",
+        "brand": "Aurolife Pharma LLC",
+        "productNameGeneric": "Oxycodone and Acetaminophen",
+        "productNameBrand": "Oxycodone and Acetaminophen",
+        "price": 720,
+        "quantity": 64986
+    },
+    {
+        "date": "26/08/2023",
+        "sku": "275816782-4",
+        "brand": "Ratiopharm Inc",
+        "productNameGeneric": "Risperidone",
+        "productNameBrand": "Risperidone",
+        "price": 164,
+        "quantity": 26167
+    },
+    {
+        "date": "27/10/2023",
+        "sku": "704193994-4",
+        "brand": "Zydus Pharmaceuticals (USA) Inc.",
+        "productNameGeneric": "letrozole",
+        "productNameBrand": "letrozole",
+        "price": 517,
+        "quantity": 58944
+    },
+    {
+        "date": "17/06/2022",
+        "sku": "515198985-5",
+        "brand": "Cardinal Health",
+        "productNameGeneric": "megestrol acetate",
+        "productNameBrand": "Megestrol Acetate",
+        "price": 161,
+        "quantity": 71711
+    },
+    {
+        "date": "03/02/2022",
+        "sku": "243532556-8",
+        "brand": "Best Choice",
+        "productNameGeneric": "Aluminum Hydroxide, Magnesium Hydroxide, Dimethicone",
+        "productNameBrand": "Antacid Antigas",
+        "price": 435,
+        "quantity": 82922
+    },
+    {
+        "date": "22/04/2022",
+        "sku": "747662392-4",
+        "brand": "Aidarex Pharmaceuticals LLC",
+        "productNameGeneric": "Glipizide",
+        "productNameBrand": "Glipizide",
+        "price": 413,
+        "quantity": 52257
+    },
+    {
+        "date": "20/01/2022",
+        "sku": "382843556-4",
+        "brand": "GlaxoSmithKline LLC",
+        "productNameGeneric": "ticarcillin disodium and clavulanate potassium",
+        "productNameBrand": "TIMENTIN",
+        "price": 116,
+        "quantity": 27839
+    },
+    {
+        "date": "01/04/2021",
+        "sku": "274197710-0",
+        "brand": "Chattem, Inc.",
+        "productNameGeneric": "Menthol Topical Analgesic",
+        "productNameBrand": "Icy Hot Advanced Relief",
+        "price": 197,
+        "quantity": 21457
+    },
+    {
+        "date": "03/12/2023",
+        "sku": "876096962-8",
+        "brand": "Sandoz Inc",
+        "productNameGeneric": "Vancomycin Hydrochloride",
+        "productNameBrand": "Vancomycin Hydrochloride",
+        "price": 643,
+        "quantity": 44799
+    },
+    {
+        "date": "06/03/2023",
+        "sku": "744412401-9",
+        "brand": "Galderma Laboratories, L.P.",
+        "productNameGeneric": "clindamycin phosphate",
+        "productNameBrand": "Clindagel",
+        "price": 125,
+        "quantity": 25449
+    },
+    {
+        "date": "03/06/2022",
+        "sku": "648064258-9",
+        "brand": "HOMEOLAB USA INC",
+        "productNameGeneric": "CARBO VEGETABILIS",
+        "productNameBrand": "CARBO VEGETABILIS",
+        "price": 597,
+        "quantity": 56223
+    },
+    {
+        "date": "24/06/2021",
+        "sku": "246992573-8",
+        "brand": "General Injectables & Vaccines, Inc.",
+        "productNameGeneric": "Atropine Sulfate",
+        "productNameBrand": "Atropine Sulfate",
+        "price": 373,
+        "quantity": 68673
+    },
+    {
+        "date": "22/03/2022",
+        "sku": "867410449-5",
+        "brand": "Actavis Kadian LLC",
+        "productNameGeneric": "morphine sulfate",
+        "productNameBrand": "Kadian",
+        "price": 256,
+        "quantity": 67195
+    },
+    {
+        "date": "03/10/2021",
+        "sku": "279652826-X",
+        "brand": "Roche Products Inc",
+        "productNameGeneric": "diazepam",
+        "productNameBrand": "Valium",
+        "price": 762,
+        "quantity": 65613
+    },
+    {
+        "date": "06/03/2022",
+        "sku": "354242383-1",
+        "brand": "E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.",
+        "productNameGeneric": "Amcinonide",
+        "productNameBrand": "Amcinonide",
+        "price": 399,
+        "quantity": 41110
+    },
+    {
+        "date": "22/11/2022",
+        "sku": "786517915-4",
+        "brand": "American Health Packaging",
+        "productNameGeneric": "Carbidopa and Levodopa",
+        "productNameBrand": "Carbidopa and Levodopa",
+        "price": 817,
+        "quantity": 46376
+    },
+    {
+        "date": "16/10/2021",
+        "sku": "720450347-3",
+        "brand": "Citra Labs LLC",
+        "productNameGeneric": "Trisodium Citrate dihydrate",
+        "productNameBrand": "triCitrasol",
+        "price": 822,
+        "quantity": 41415
+    },
+    {
+        "date": "19/08/2021",
+        "sku": "553111658-6",
+        "brand": "General Injectables & Vaccines, Inc",
+        "productNameGeneric": "naloxone hydrochloride",
+        "productNameBrand": "NALOXONE HYDROCHLORIDE",
+        "price": 722,
+        "quantity": 63390
+    },
+    {
+        "date": "03/05/2023",
+        "sku": "113218206-9",
+        "brand": "Taro Pharmaceuticals U.S.A., Inc.",
+        "productNameGeneric": "Calcipotriene",
+        "productNameBrand": "Calcitrene",
+        "price": 867,
+        "quantity": 12984
+    },
+    {
+        "date": "19/09/2022",
+        "sku": "443436402-2",
+        "brand": "Uriel Pharmacy Inc.",
+        "productNameGeneric": "Cichorium Oxalis Special Order",
+        "productNameBrand": "Cichorium Oxalis Special Order",
+        "price": 756,
+        "quantity": 64120
+    },
+    {
+        "date": "27/05/2023",
+        "sku": "220513697-6",
+        "brand": "Procter & Gamble Manufacturing Company",
+        "productNameGeneric": "Aluminum Zirconium Trichlorohydrex Gly",
+        "productNameBrand": "Secret Clinical Strength",
+        "price": 171,
+        "quantity": 53291
+    },
+    {
+        "date": "15/01/2021",
+        "sku": "202714558-3",
+        "brand": "Natural Health Supply",
+        "productNameGeneric": "IRIDIUM",
+        "productNameBrand": "WEAKNESS",
+        "price": 828,
+        "quantity": 18262
+    },
+    {
+        "date": "17/04/2021",
+        "sku": "050082884-9",
+        "brand": "ZURICH MEDICAL LABS, LLC",
+        "productNameGeneric": "Undecylenic Acid",
+        "productNameBrand": "Sanafitil",
+        "price": 223,
+        "quantity": 75309
+    },
+    {
+        "date": "17/06/2023",
+        "sku": "994552623-5",
+        "brand": "Western Allergy Services Ltd.",
+        "productNameGeneric": "Ambrosia Artemisiaefolia",
+        "productNameBrand": "Pollen Guard Ragweed",
+        "price": 455,
+        "quantity": 53598
+    },
+    {
+        "date": "19/06/2022",
+        "sku": "886157429-7",
+        "brand": "ALK-Abello, Inc.",
+        "productNameGeneric": "White Mulberry",
+        "productNameBrand": "MORUS ALBA POLLEN",
+        "price": 361,
+        "quantity": 87344
+    },
+    {
+        "date": "01/02/2023",
+        "sku": "972740564-9",
+        "brand": "Hannaford Brothers Company",
+        "productNameGeneric": "Bismuth subsalicylate",
+        "productNameBrand": "Stomach Relief",
+        "price": 362,
+        "quantity": 12389
+    },
+    {
+        "date": "27/07/2023",
+        "sku": "491572751-3",
+        "brand": "International Ethical Labs",
+        "productNameGeneric": "Dextromethorphan Hydrobromide, Guaifenesin, Pseudoephedrine Hydrochloride",
+        "productNameBrand": "Despec",
+        "price": 404,
+        "quantity": 72536
+    },
+    {
+        "date": "18/08/2022",
+        "sku": "968391979-0",
+        "brand": "Perrigo New York Inc",
+        "productNameGeneric": "Ibuprofen",
+        "productNameBrand": "Ibuprofen",
+        "price": 850,
+        "quantity": 71922
+    },
+    {
+        "date": "15/10/2021",
+        "sku": "089490510-4",
+        "brand": "Quest Products, Inc.",
+        "productNameGeneric": "Lidocaine Hydrochloride and Benzalkonium Chloride",
+        "productNameBrand": "Alocane Plus",
+        "price": 649,
+        "quantity": 60116
+    },
+    {
+        "date": "08/05/2022",
+        "sku": "845049952-6",
+        "brand": "Cardinal Health",
+        "productNameGeneric": "Sulfamethoxazole and Trimethoprim",
+        "productNameBrand": "Sulfamethoxazole and Trimethoprim",
+        "price": 203,
+        "quantity": 52147
+    },
+    {
+        "date": "23/07/2023",
+        "sku": "241722083-0",
+        "brand": "Supernus Pharmaceuticals, Inc.",
+        "productNameGeneric": "topiramate",
+        "productNameBrand": "Trokendi XR",
+        "price": 210,
+        "quantity": 71906
+    },
+    {
+        "date": "18/11/2023",
+        "sku": "465479506-5",
+        "brand": "Cantrell Drug Company",
+        "productNameGeneric": "Fentanyl Citrate",
+        "productNameBrand": "Fentanyl Citrate",
+        "price": 233,
+        "quantity": 49779
+    },
+    {
+        "date": "09/02/2021",
+        "sku": "366588239-7",
+        "brand": "BioActive Nutritional, Inc.",
+        "productNameGeneric": "Abrotanum, Boldo, Chelidonium Majus, Cimicifuga Racemosa, Convallaria Majalis, Kali Phosphoricum, Taraxacum Officinale",
+        "productNameBrand": "Cardiofroce",
+        "price": 453,
+        "quantity": 77963
+    },
+    {
+        "date": "07/03/2021",
+        "sku": "289297949-8",
+        "brand": "Blu Pharmaceuticals, LLC",
+        "productNameGeneric": "Doxycycline hyclate",
+        "productNameBrand": "Doxycycline",
+        "price": 705,
+        "quantity": 31592
+    },
+    {
+        "date": "10/06/2021",
+        "sku": "942656975-8",
+        "brand": "Virtus Pharmaceuticals",
+        "productNameGeneric": "Levomefolate Calcium and Algal Powder",
+        "productNameBrand": "levomefolate calcium and schizochytrium dha",
+        "price": 451,
+        "quantity": 35476
+    },
+    {
+        "date": "23/06/2023",
+        "sku": "591444841-7",
+        "brand": "A-S Medication Solutions LLC",
+        "productNameGeneric": "Flurazepam Hydrochloride",
+        "productNameBrand": "Flurazepam",
+        "price": 854,
+        "quantity": 15564
+    },
+    {
+        "date": "08/01/2022",
+        "sku": "391634185-5",
+        "brand": "TYA Pharmaceuticals",
+        "productNameGeneric": "Amoxicillin",
+        "productNameBrand": "Amoxicillin",
+        "price": 526,
+        "quantity": 25430
+    },
+    {
+        "date": "23/02/2021",
+        "sku": "231236723-8",
+        "brand": "Safetec of America, Inc.",
+        "productNameGeneric": "benzocaine",
+        "productNameBrand": "Pain Relief",
+        "price": 421,
+        "quantity": 61775
+    },
+    {
+        "date": "14/10/2022",
+        "sku": "858939172-8",
+        "brand": "Meridian Medical Technologies, Inc.",
+        "productNameGeneric": "Morphine Sulfate",
+        "productNameBrand": "Morphine Sulfate",
+        "price": 828,
+        "quantity": 26546
+    },
+    {
+        "date": "27/10/2021",
+        "sku": "548685808-6",
+        "brand": "Coastal Welding Supply, Inc.",
+        "productNameGeneric": "Nitrogen",
+        "productNameBrand": "Nitrogen",
+        "price": 745,
+        "quantity": 63026
+    },
+    {
+        "date": "11/09/2023",
+        "sku": "993350865-2",
+        "brand": "Wockhardt Limited",
+        "productNameGeneric": "zolpidem tartrate",
+        "productNameBrand": "ZOLPIDEM TARTRATE",
+        "price": 753,
+        "quantity": 28778
+    },
+    {
+        "date": "26/02/2023",
+        "sku": "454488382-2",
+        "brand": "SMASHBOX BEAUTY COSMETICS, INC",
+        "productNameGeneric": "OCTINOXATE and TITANIUM DIOXIDE",
+        "productNameBrand": "SMASHBOX",
+        "price": 722,
+        "quantity": 74969
+    },
+    {
+        "date": "01/07/2023",
+        "sku": "173229741-X",
+        "brand": "Taro Pharmaceutical Industries Ltd.",
+        "productNameGeneric": "Imiquimod",
+        "productNameBrand": "Imiquimod",
+        "price": 293,
+        "quantity": 15565
+    },
+    {
+        "date": "16/03/2021",
+        "sku": "567266158-0",
+        "brand": "Betco Corporation, Ltd.",
+        "productNameGeneric": "Chloroxylenol",
+        "productNameBrand": "Knuckle Under Medicated",
+        "price": 174,
+        "quantity": 75691
+    },
+    {
+        "date": "27/03/2022",
+        "sku": "933436092-5",
+        "brand": "American Health Packaging",
+        "productNameGeneric": "isosorbide mononitrate",
+        "productNameBrand": "isosorbide mononitrate",
+        "price": 236,
+        "quantity": 36866
+    },
+    {
+        "date": "02/03/2021",
+        "sku": "821723543-0",
+        "brand": "Sun Pharmaceutical Industries Limited",
+        "productNameGeneric": "ONDANSETRON",
+        "productNameBrand": "ONDANSETRON",
+        "price": 751,
+        "quantity": 87500
+    },
+    {
+        "date": "29/03/2022",
+        "sku": "099277295-8",
+        "brand": "REMEDYREPACK INC.",
+        "productNameGeneric": "Clotrimazole and Betamethasone Dipropionate",
+        "productNameBrand": "Clotrimazole and Betamethasone Dipropionate",
+        "price": 476,
+        "quantity": 60929
+    },
+    {
+        "date": "24/01/2021",
+        "sku": "407517428-X",
+        "brand": "Cardinal Health",
+        "productNameGeneric": "MAGNESIUM SULFATE",
+        "productNameBrand": "Epsom Salt",
+        "price": 846,
+        "quantity": 21076
+    },
+    {
+        "date": "10/10/2021",
+        "sku": "619118874-9",
+        "brand": "Wockhardt USA LLC.",
+        "productNameGeneric": "Lamotrigine",
+        "productNameBrand": "Lamotrigine",
+        "price": 283,
+        "quantity": 73977
+    },
+    {
+        "date": "08/12/2022",
+        "sku": "011916569-4",
+        "brand": "Cypress Pharmaceutical, Inc.",
+        "productNameGeneric": "Chlorpheniramine Maleate, Pseudoephedrine Hydrochloride",
+        "productNameBrand": "Neutrahist",
+        "price": 818,
+        "quantity": 82762
+    },
+    {
+        "date": "01/06/2022",
+        "sku": "307687802-6",
+        "brand": "G&W Laboratories, Inc.",
+        "productNameGeneric": "Metronidazole",
+        "productNameBrand": "Metronidazole",
+        "price": 453,
+        "quantity": 34803
+    },
+    {
+        "date": "23/10/2021",
+        "sku": "750690768-2",
+        "brand": "W Last CC",
+        "productNameGeneric": "Arnica Montana",
+        "productNameBrand": "Arnica Complex",
+        "price": 741,
+        "quantity": 69311
+    },
+    {
+        "date": "30/11/2023",
+        "sku": "467724133-3",
+        "brand": "McKesson Medical",
+        "productNameGeneric": "Isopropyl Alcohol",
+        "productNameBrand": "Isopropyl Alcohol",
+        "price": 239,
+        "quantity": 43881
+    },
+    {
+        "date": "09/09/2021",
+        "sku": "384527377-1",
+        "brand": "Major Pharmaceuticals",
+        "productNameGeneric": "ENALAPRIL MALEATE",
+        "productNameBrand": "ENALAPRIL MALEATE",
+        "price": 663,
+        "quantity": 71802
+    },
+    {
+        "date": "09/02/2021",
+        "sku": "143369325-9",
+        "brand": "Ascend Laboratories, LLC",
+        "productNameGeneric": "Hydralazine Hydrochloride",
+        "productNameBrand": "Hydralazine Hydrochloride",
+        "price": 564,
+        "quantity": 52612
+    },
+    {
+        "date": "29/01/2022",
+        "sku": "089858870-7",
+        "brand": "Conopco Inc. d/b/a Unilever",
+        "productNameGeneric": "Antiperspirant and Deodorant",
+        "productNameBrand": "Axe",
+        "price": 727,
+        "quantity": 19971
+    },
+    {
+        "date": "17/12/2021",
+        "sku": "706586800-1",
+        "brand": "CVS Pharmacy",
+        "productNameGeneric": "Nicotine Polacrilex",
+        "productNameBrand": "nicotine polacrilex",
+        "price": 774,
+        "quantity": 34122
+    },
+    {
+        "date": "16/11/2021",
+        "sku": "157480659-9",
+        "brand": "Kramer Novis",
+        "productNameGeneric": "Dexbromopheniramine Maleate, Dextromethorphan HBr, Phenylephrine HCl",
+        "productNameBrand": "SUPRESS A",
+        "price": 402,
+        "quantity": 57376
+    },
+    {
+        "date": "22/01/2023",
+        "sku": "097350199-5",
+        "brand": "IVAX Pharmaceuticals Inc.",
+        "productNameGeneric": "Glipizide",
+        "productNameBrand": "Glipizide",
+        "price": 539,
+        "quantity": 55249
+    },
+    {
+        "date": "28/09/2023",
+        "sku": "610217504-2",
+        "brand": "H E B",
+        "productNameGeneric": "hydrocortisone",
+        "productNameBrand": "hydrocortisone",
+        "price": 610,
+        "quantity": 12280
+    },
+    {
+        "date": "24/04/2021",
+        "sku": "589833206-5",
+        "brand": "BB17, LLC",
+        "productNameGeneric": "benzethonium chloride",
+        "productNameBrand": "ANTIBACTERIAL WIPES Blue Raspberry",
+        "price": 807,
+        "quantity": 82369
+    },
+    {
+        "date": "15/02/2021",
+        "sku": "342368206-X",
+        "brand": "Avion Pharmaceuticals, LLC",
+        "productNameGeneric": ".beta.-carotene, ascorbic acid, cholecalciferol, .alpha.-tocopherol acetate, dl-, thiamine mononitrate, riboflavin, niacinamide, pyridoxine hydrochloride, folic acid, 5-methyltetrahydrofolic acid, calcium formate, ferrous asparto glycinate, cyanocobalamin, biotin, potassium iodide, magnesium oxide, zinc oxide and cupric oxide",
+        "productNameBrand": "Prenate Elite",
+        "price": 228,
+        "quantity": 38982
+    },
+    {
+        "date": "30/05/2023",
+        "sku": "061709961-8",
+        "brand": "Antigen Laboratories, Inc.",
+        "productNameGeneric": "Treatment Set TS346962",
+        "productNameBrand": "Treatment Set TS346962",
+        "price": 281,
+        "quantity": 85216
+    },
+    {
+        "date": "21/02/2021",
+        "sku": "489277911-3",
+        "brand": "Lake Erie Medical Surgical & Supply DBA Quality Care Products LLC",
+        "productNameGeneric": "tapentadol hydrochloride",
+        "productNameBrand": "NUCYNTA",
+        "price": 574,
+        "quantity": 25852
+    },
+    {
+        "date": "28/10/2022",
+        "sku": "037530390-1",
+        "brand": "Target Corporation",
+        "productNameGeneric": "dextromethorphan polistirex",
+        "productNameBrand": "up and up cough suppressant dm",
+        "price": 535,
+        "quantity": 55262
+    },
+    {
+        "date": "17/02/2022",
+        "sku": "193567810-8",
+        "brand": "Ventura Corporation LTD",
+        "productNameGeneric": "Octinoxate",
+        "productNameBrand": "ESIKA HD COLOR HIGH DEFINITION COLOR SPF 20",
+        "price": 632,
+        "quantity": 37394
+    },
+    {
+        "date": "07/03/2021",
+        "sku": "136331108-5",
+        "brand": "BTA Pharmaceuticals Inc.",
+        "productNameGeneric": "lorazepam",
+        "productNameBrand": "Ativan",
+        "price": 336,
+        "quantity": 67313
+    },
+    {
+        "date": "16/06/2023",
+        "sku": "144800889-1",
+        "brand": "H E B",
+        "productNameGeneric": "Acetaminophen",
+        "productNameBrand": "Pain Relief",
+        "price": 256,
+        "quantity": 85009
+    },
+    {
+        "date": "23/01/2021",
+        "sku": "954331006-8",
+        "brand": "Bryant Ranch Prepack",
+        "productNameGeneric": "Glyburide and Metformin",
+        "productNameBrand": "Glyburide and Metformin",
+        "price": 862,
+        "quantity": 11453
+    },
+    {
+        "date": "02/06/2021",
+        "sku": "142998866-5",
+        "brand": "Rebel Distributors Corp",
+        "productNameGeneric": "Neomycin sulfate, Polymyxin B Sulfate and Hydrocortisone",
+        "productNameBrand": "Neomycin and Polymyxin B Sulfates and Hydrocortisone",
+        "price": 424,
+        "quantity": 12684
+    },
+    {
+        "date": "13/06/2023",
+        "sku": "432784897-2",
+        "brand": "Mylan Pharmaceuticals Inc.",
+        "productNameGeneric": "diltiazem hydrochloride",
+        "productNameBrand": "Diltiazem Hydrochloride",
+        "price": 334,
+        "quantity": 73707
+    },
+    {
+        "date": "30/07/2023",
+        "sku": "305187436-1",
+        "brand": "BluePoint Laboratories",
+        "productNameGeneric": "Anastrozole",
+        "productNameBrand": "Anastrozole",
+        "price": 402,
+        "quantity": 58322
+    },
+    {
+        "date": "15/04/2023",
+        "sku": "968656142-0",
+        "brand": "Vi Jon, Inc",
+        "productNameGeneric": "Alcohol",
+        "productNameBrand": "Germ-X",
+        "price": 653,
+        "quantity": 19824
+    },
+    {
+        "date": "01/08/2021",
+        "sku": "448366566-9",
+        "brand": "SOBAEK INSAM FARMING COOPERATIVE CORPORATION",
+        "productNameGeneric": "Allantoin",
+        "productNameBrand": "Red Ginseng Pure Red Lively Water",
+        "price": 463,
+        "quantity": 30176
+    },
+    {
+        "date": "11/02/2023",
+        "sku": "599629339-0",
+        "brand": "REMEDYREPACK INC.",
+        "productNameGeneric": "PRAVASTATIN SODIUM",
+        "productNameBrand": "PRAVASTATIN SODIUM",
+        "price": 149,
+        "quantity": 79222
+    },
+    {
+        "date": "07/11/2023",
+        "sku": "215152289-X",
+        "brand": "Ventura International LTD",
+        "productNameGeneric": "Octinoxate and Oxybenzone",
+        "productNameBrand": "LBEL Couleur luxe rouge irresistible maximum hydration SPF 17",
+        "price": 304,
+        "quantity": 31449
+    },
+    {
+        "date": "01/09/2021",
+        "sku": "438034698-6",
+        "brand": "AvKARE, Inc.",
+        "productNameGeneric": "Tizanidine Hydrochloride",
+        "productNameBrand": "Tizanidine Hydrochloride",
+        "price": 748,
+        "quantity": 38737
+    },
+    {
+        "date": "25/11/2023",
+        "sku": "306223352-4",
+        "brand": "Sandoz Inc",
+        "productNameGeneric": "Amoxicillin and Clavulanate Potassium",
+        "productNameBrand": "Amoxicillin and Clavulanate Potassium",
+        "price": 651,
+        "quantity": 67244
+    },
+    {
+        "date": "21/02/2023",
+        "sku": "044106102-8",
+        "brand": "CVS Pharmacy",
+        "productNameGeneric": "dextromethorphan polistirex",
+        "productNameBrand": "Cough DM",
+        "price": 568,
+        "quantity": 14759
+    },
+    {
+        "date": "15/12/2023",
+        "sku": "236331689-4",
+        "brand": "Ultradent Products, Inc.",
+        "productNameGeneric": "Sodium Fluoride",
+        "productNameBrand": "Xylishield",
+        "price": 163,
+        "quantity": 84667
+    },
+    {
+        "date": "22/02/2023",
+        "sku": "463392592-X",
+        "brand": "Kareway Product, Inc.",
+        "productNameGeneric": "Menthol",
+        "productNameBrand": "Muscle and Joint",
+        "price": 853,
+        "quantity": 72443
+    },
+    {
+        "date": "01/03/2023",
+        "sku": "270845383-1",
+        "brand": "NorthStar Rx LLC",
+        "productNameGeneric": "CEFPODOXIME PROXETIL",
+        "productNameBrand": "CEFPODOXIME PROXETIL",
+        "price": 599,
+        "quantity": 25999
+    },
+    {
+        "date": "09/05/2021",
+        "sku": "208973864-2",
+        "brand": "Ventura Corporation (San Juan, P.R)",
+        "productNameGeneric": "Aluminum Sesquichlorohydrate",
+        "productNameBrand": "CYZONE",
+        "price": 412,
+        "quantity": 45745
+    },
+    {
+        "date": "30/08/2023",
+        "sku": "881500533-1",
+        "brand": "Procter & Gamble Manufacturing Co.",
+        "productNameGeneric": "Pyrithione Zinc",
+        "productNameBrand": "Head and Shoulders",
+        "price": 521,
+        "quantity": 82492
+    },
+    {
+        "date": "02/03/2022",
+        "sku": "634409957-7",
+        "brand": "Nelco Laboratories, Inc.",
+        "productNameGeneric": "Turkey",
+        "productNameBrand": "Turkey",
+        "price": 582,
+        "quantity": 38297
+    },
+    {
+        "date": "12/11/2022",
+        "sku": "782905522-X",
+        "brand": "Cardinal Health Inc.",
+        "productNameGeneric": "TOLNAFTATE",
+        "productNameBrand": "Leader Medicated",
+        "price": 100,
+        "quantity": 29191
+    },
+    {
+        "date": "22/03/2023",
+        "sku": "662101627-1",
+        "brand": "RITE AID CORPORATION",
+        "productNameGeneric": "ENSULIZOLE",
+        "productNameBrand": "RITE AID RENEWAL",
+        "price": 396,
+        "quantity": 76887
+    },
+    {
+        "date": "22/04/2023",
+        "sku": "647063594-6",
+        "brand": "Premiere Enterprises",
+        "productNameGeneric": "menthol",
+        "productNameBrand": "Analgesic",
+        "price": 756,
+        "quantity": 55036
+    },
+    {
+        "date": "15/12/2023",
+        "sku": "153898831-3",
+        "brand": "Elizabeth Arden, Inc",
+        "productNameGeneric": "Octinoxate",
+        "productNameBrand": "Flawless Finish Bare Perfection Makeup SPF 8 Bisque",
+        "price": 533,
+        "quantity": 83163
+    },
+    {
+        "date": "11/04/2021",
+        "sku": "562388719-8",
+        "brand": "Certus Medical, Inc.",
+        "productNameGeneric": "ALCOHOL",
+        "productNameBrand": "Celox Ultra",
+        "price": 726,
+        "quantity": 21213
+    },
+    {
+        "date": "17/04/2023",
+        "sku": "752946383-7",
+        "brand": "Aidarex Pharmaceuticals LLC",
+        "productNameGeneric": "Orphenadrine Citrate",
+        "productNameBrand": "Orphenadrine Citrate",
+        "price": 476,
+        "quantity": 27498
+    },
+    {
+        "date": "29/03/2021",
+        "sku": "253071155-0",
+        "brand": "Home Sweet Homeopathics",
+        "productNameGeneric": "Arnica, Apis, Hepar Sulph, Hypericum, Ledum, Silicea",
+        "productNameBrand": "Infected Cuts and Punctures",
+        "price": 171,
+        "quantity": 20330
+    }
+]

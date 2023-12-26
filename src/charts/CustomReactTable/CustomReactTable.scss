@@ -1,0 +1,136 @@
+div.custom-react-table {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  > div.table-container {
+    flex: 1 1 1px;
+    overflow: hidden;
+    position: relative;
+
+    --header-padding-top: 0.3em;
+    --header-padding-bottom: 0.3em;
+    --header-padding-left: 0.5em;
+    --header-padding-right: 0.5em;
+
+    --total-header-height: calc(
+      1em + var(--header-padding-top) + var(--header-padding-bottom)
+    );
+
+    > div.scrollbar-container {
+      height: 100%;
+
+      > table {
+        border-collapse: separate;
+        border-spacing: 0;
+
+        --border-color: #bdbdbd;
+
+        > thead,
+        > tbody {
+          > tr {
+            > th,
+            > td {
+              border: none;
+              padding: var(--header-padding-top) var(--header-padding-right)
+                var(--header-padding-bottom) var(--header-padding-left);
+            }
+          }
+        }
+
+        > thead {
+          > tr {
+            --header-top: 0;
+
+            > th {
+              position: sticky;
+              background-color: #fff;
+              text-align: left;
+              line-height: 1em;
+              top: var(--header-top);
+
+              &[colspan]:not([colspan="1"]) {
+                text-align: center;
+              }
+            }
+
+            &:last-child > th {
+              border-bottom: 0.1em solid var(--border-color);
+            }
+
+            @for $i from 2 to 10 {
+              &:nth-child(#{$i}) {
+                --header-top: calc(
+                  #{$i} -
+                    1 +
+                    var(--header-padding-top) +
+                    var(--header-padding-bottom)
+                );
+              }
+            }
+          }
+        }
+      }
+
+      > div.ps__rail-y {
+        margin-top: var(--total-header-height);
+      }
+    }
+
+    > div.loading-overlay {
+      position: absolute;
+      top: var(--total-header-height);
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      background-color: #00000080;
+
+      &.cover-header {
+        top: 0;
+      }
+
+      svg {
+        > circle {
+          stroke: #ffffff;
+        }
+      }
+    }
+  }
+
+  &.banded-rows {
+    > div.table-container {
+      > div.scrollbar-container {
+        > table {
+          > tbody {
+            > tr:nth-child(even) {
+              background-color: #f2f2f2;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.bordered-rows {
+    > div.table-container {
+      > div.scrollbar-container {
+        > table {
+          > tbody {
+            > tr {
+              > td {
+                border-bottom: 0.1em solid var(--border-color);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
