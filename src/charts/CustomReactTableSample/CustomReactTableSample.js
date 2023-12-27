@@ -41,6 +41,7 @@ const columns = [
 
 export const CustomReactTableSample = () => {
   const [loading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     setLoading(true);
@@ -55,6 +56,8 @@ export const CustomReactTableSample = () => {
       data={SampleData}
       columns={columns}
       loading={loading}
+      currentPage={currentPage}
+      pagination
       banded
       bordered
     />

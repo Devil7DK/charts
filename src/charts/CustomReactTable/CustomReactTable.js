@@ -5,15 +5,20 @@ import clsx from "clsx";
 import {
   flexRender,
   getCoreRowModel,
+  getPaginationRowModel,
   useReactTable,
 } from "@tanstack/react-table";
-import React, { useEffect, useMemo, useRef } from "react";
+import React, { useEffect, useMemo, useRef, useCallback } from "react";
 import {
   transformColumnDefinition,
   useHeaderHeight,
   useScrollbar,
 } from "./CustomReactTableUtils";
 import { CircularProgress } from "@mui/material";
+
+import { CustomPagination } from "./CustomPagination";
+import { useDependentState } from "../../utils/CommonHooks";
+import _ from "lodash";
 
 /**
  * @typedef {Object} CustomReactTableColumnDefinition
@@ -48,6 +53,12 @@ import { CircularProgress } from "@mui/material";
  * @property {boolean | undefined} bordered Whether the table has bordered rows or not
  * @property {boolean | undefined} autoHeaderHeight Whether the table should automatically calculate header height or not. Defaults to `true`.
  * @property {boolean | undefined} overlayCoverHeader Whether the loading overlay should cover the header or not. Defaults to `false` i.e. the overlay covers only the table body.
+ * @property {number | undefined} dataSize Total number of data rows if the table is remotely paginated. Defaults to the length of the data array.
+ * @property {number | undefined} currentPage Current page number if the pagination is enabled. Defaults to `1`.
+ * @property {(currentPage: number) => void | undefined} onPageChange Function to be called when the page is changed. Defaults to `undefined`.
+ * @property {number | undefined} [sizePerPage=25] Number of rows per page. Defaults to `25`.
+ * @property {boolean | undefined} [remote=false] Whether the table data is remotely handled or not. Defaults to `false`.
+ * @property {boolean | import("./CustomPagination").CustomPaginationProps | undefined} [pagination=false] Whether the table is paginated or not. If `true`, uses default pagination component. If an object, passes the props to the pagination component. Defaults to `false`.
  */
 
 /**
@@ -62,6 +73,11 @@ export const CustomReactTable = (props) => {
   );
   const scrollbarRef = useScrollbar();
 
+  const [currentPage, setCurrentPage] = useDependentState(
+    () => props.currentPage || 1,
+    [props.currentPage]
+  );
+
   const columns = useMemo(
     () => props.columns.map((item) => transformColumnDefinition(item)),
     []
@@ -71,7 +87,28 @@ export const CustomReactTable = (props) => {
     columns,
     data: props.data,
     getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    state: {
+      pagination: {
+        pageIndex: currentPage - 1,
+        pageSize: props.sizePerPage,
+      },
+    },
+    manualPagination: props.remote,
   });
+
+  const tableState = table.getState();
+
+  const handlePageChange = useCallback(
+    (currentPage) => {
+      if (props.onPageChange) {
+        props.onPageChange(currentPage);
+      }
+
+      setCurrentPage(currentPage);
+    },
+    [props.onPageChange]
+  );
 
   return (
     <div
@@ -142,6 +179,36 @@ export const CustomReactTable = (props) => {
           </div>
         )}
       </div>
+      {props.pagination && (
+        <div className="pagination-container">
+          <div></div>
+          <div>
+            <CustomPagination
+              {...(typeof props.pagination === "object"
+                ? props.pagination
+                : {})}
+              dataSize={props.dataSize || props.data.length}
+              sizePerPage={tableState.pagination.pageSize}
+              currentPage={tableState.pagination.pageIndex + 1}
+              onPageChange={handlePageChange}
+              alwaysShowAllBtns
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
+};
+
+CustomReactTable.defaultProps = {
+  banded: false,
+  bordered: false,
+  autoHeaderHeight: true,
+  overlayCoverHeader: false,
+  dataSize: null,
+  currentPage: 1,
+  onPageChange: null,
+  sizePerPage: 25,
+  remote: false,
+  pagination: false,
 };

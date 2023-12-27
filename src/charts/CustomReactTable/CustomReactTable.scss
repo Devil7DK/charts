@@ -25,6 +25,7 @@ div.custom-react-table {
       > table {
         border-collapse: separate;
         border-spacing: 0;
+        width: 100%;
 
         --border-color: #bdbdbd;
 
@@ -102,6 +103,13 @@ div.custom-react-table {
         }
       }
     }
+  }
+
+  > div.pagination-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
   }
 
   &.banded-rows {
