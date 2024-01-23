@@ -1,0 +1,64 @@
+div.main {
+    margin-right: 30px;
+}
+
+ol.arrow-breadcrumb {
+    --height: 2em;
+
+    display: table;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+
+    >li.arrow-breadcrumb-item {
+        display: table-cell;
+        height: var(--height);
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        border: 0.1em solid #d68a3a;
+
+        &:hover {
+            background-color: #d68a3a;
+            cursor: pointer;
+            color: white;
+        }
+
+        >div {
+            position: relative;
+            line-height: var(--height);
+
+            height: 100%;
+            width: 100%;
+
+            &:after,
+            &:before {
+                content: "";
+                display: inline-block;
+                border-width: calc(var(--height) / 2);
+                border-style: solid;
+                width: 0px;
+                height: 0px;
+                left: 100%;
+                top: -1px;
+                position: absolute;
+                z-index: 1;
+            }
+
+            &:after,
+            &:hover:before {
+                border-color: transparent transparent transparent #d68a3a;
+            }
+
+            &:before {
+                border-width: 14px;
+                display: block;
+                border-color: transparent transparent transparent #ffffff;
+                z-index: 2;
+                top: 1px;
+            }
+        }
+    }
+}
